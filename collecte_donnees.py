@@ -48,7 +48,6 @@ for label, n_texts in labels_config.items():
 
         prompt = f"""
 Génère {current_batch} courts textes en français sur le thème culturel '{label}'.
-
 Chaque texte doit être autonome, comme un extrait d'article ou critique culturelle.
 Les textes doivent être variés et réalistes.
 Renvoie chaque texte séparé par une ligne vide.
